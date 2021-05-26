@@ -33,7 +33,7 @@ export default class FollowersList extends Component {
         
         return (
             <div className="followers-list">
-                <h2>Followers</h2>
+                <h2>My Followers</h2>
                 {isLoading && <p>Loading...</p>}
                 {error && <p>{error}</p>}
 
